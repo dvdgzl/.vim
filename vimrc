@@ -166,10 +166,6 @@ imap <C-b> <ESC>:b#<CR>
 nmap <M-e> <C-W>W<C-e><C-W>W
 nmap <M-y> <C-W>W<C-y><C-W>W
 
-nmap <leader>v :NERDTree 
-" start search for member function in cpp
-nmap <leader>s /::
-
 cabbrev B b
 
 " stop vim from auto-commenting
@@ -177,9 +173,6 @@ cabbrev B b
 
 set list
 set listchars=tab:»\ ,trail:·
-
-map <F12> :NERDTreeToggle<CR>
-let NERDTreeIgnore=['\.class', '\.jar', '\.fxp']
 
 "autocmd BufEnter * lcd %:p:h
 set path=.\**
