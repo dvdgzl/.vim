@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='R:\main'
+let g:netrw_dirhist_2='R:/main/IIS Software'
+let g:netrw_dirhist_3='R:/main/IIS Software/MilIISCore'
+let g:netrw_dirhist_4='R:/main/IIS Software/MilIISCore/Profiles'
+let g:netrw_dirhist_5='R:/main/IIS Software/MilIISCore/Profiles/MillReceipt'
