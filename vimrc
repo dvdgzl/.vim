@@ -134,8 +134,6 @@ autocmd filetype html setlocal isk+=-
 autocmd filetype css setlocal isk+=-
 
 autocmd filetype sql setlocal isk+=-
-autocmd filetype sql :nmap <leader>a <ESC>/md_<CR>"1ywf(f["2yi]f)f'"3yi'_OIF NOT EXISTS(SELECT * FROM <ESC>"1pa WHERE <ESC>"2pa = N'<ESC>"3pa')<ESC>oBEGIN<ESC>j}OEND<ESC>_
-
 
 " while in insert mode, move around with control + h, j, k, l
 " as in normal mode
@@ -175,6 +173,8 @@ set list
 set listchars=tab:»\ ,trail:·
 
 "autocmd BufEnter * lcd %:p:h
+nnoremap <leader>e :e **/
+nnoremap <leader>b :b <C-d>
 set path=.\**
 
 " TFS integration
